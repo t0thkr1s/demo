@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.btksoftware.demoapp.MainActivity">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@null"
+        app:showAsAction="always" />
+
+</menu>
